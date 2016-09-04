@@ -1,0 +1,468 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,700';
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header a, header a:hover, header a:visited, header a:active {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #000;
+	letter-spacing: 3px;
+	text-decoration: none;
+	line-height: 14px;
+	padding: 10px 20px 10px 20px;
+	display: block;
+	border: 1px #000 solid;
+	border-radius: 2px;
+}
+
+a:hover {
+	color: #666;
+}
+header {
+	height: 40px;
+	display: block;
+	overflow: hidden;
+}
+header, #main {
+	background-color: #f2f2f2;
+	padding: 30px 40px 0;
+}
+header.press {
+	background-color: #fff;
+}
+header #logo {
+	float: left;
+	width: 200px;
+	max-width: 200px;
+	height: 70px;
+	background: url('/images/tommaso-logo.png') top left no-repeat;
+	background-size: 100% auto;
+}
+header #gn {
+	float: left;
+	width: 200px;
+	max-width: 200px;
+	height: 70px;
+	background: url('/images/giantnerd-logo.png') top left no-repeat;/
+	background-size: 100% auto;
+	border: none;
+	padding: 0px;
+}
+header #links {
+	float: right;
+	vertical-align: top;
+}
+.grey-wrapper {
+	background-color: #f2f2f2;
+	display: block;
+	overflow: hidden
+}
+#devices {
+	position: relative;
+	overflow: visible;
+	max-width: 1100px;
+	margin: 0 auto
+}
+#tommaso-desktop {
+	max-width: 900px;
+	margin: 0 auto;
+	height: 100%;
+	display: block;
+	vertical-align: top;
+	position: relative
+}
+#tommaso-desktop img {
+	max-width: 100%;
+}
+#giantnerd-desktop {
+	max-width: 900px;
+	margin: 0 auto;
+	height: 100%;
+	display: block;
+	vertical-align: top;
+	position: relative
+}
+#giantnerd-desktop img {
+	max-width: 100%;
+}
+#tommaso-iphone {
+	height: auto;
+	max-width: 200px;
+	position: absolute;
+	bottom: -65px;
+	right: -80px;
+	z-index: 999;
+}
+#tommaso-iphone img {
+	width: 100%
+}
+#summary {
+	padding: 50px 0;
+	background-color: #ffffff;
+	display: block;
+	overflow: hidden;
+}
+#summary .left {
+	float: left;
+	width: 75%
+}
+#summary .right {
+	float: left;
+	width: 25%;
+	position: relative;
+}
+h1 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	margin: 0 0 30px 0
+}
+h1.pressh1 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	margin: 0 0 30px 0
+}
+h1#love {font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0 0 30px 0;
+}
+h1#love img {
+	display: inline-block;
+	line-height: 40px;
+	padding: 0 0 0 0px;
+}
+h1#shield {font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0 0 30px 0;
+}
+h1#shield img {
+	display: inline-block;
+	line-height: 40px;
+	padding: 0 0 0 0px;
+}
+p {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 32px;
+	color: rgba(40, 26, 23, 0.6);
+	margin: 0
+}
+#summary .right {
+	padding: 0px 0 0 0;
+	text-align: right;
+	position: relative;
+}
+#summary .right p {
+	font-weight: 300;
+	font-size: 15px;
+	color: rgba(40, 26, 23, 0.8);
+	margin: 0;
+	padding: 0px;
+}
+#summary figure {
+	margin: 0
+}
+.love {
+	margin: 100px 0 -40px 0
+}
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto
+}
+
+.press {height: 65px;}
+.press-copy {max-width:1000px}
+.press-copy img {display: block;}
+.press-copy p {margin: 7px 0; display:block}
+.press-copy a {color:#000;}
+hr {height: 1px; background:#eee; border:0; margin:25px 0; display:block}
+
+@font-face {
+	font-family: 'ecoico';
+	src:url('fonts/timelineicons/ecoico.eot');
+	src:url('fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('fonts/timelineicons/ecoico.woff') format('woff'),
+		url('fonts/timelineicons/ecoico.ttf') format('truetype'),
+		url('fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} /* Made with http://icomoon.io/ */
+
+.cbp_tmtimeline {
+	margin: 20px 0 0 0;
+	padding: 0;
+	width: 80%;
+	float: right;
+	list-style: none;
+	position: relative;
+}
+.right.giant .cbp_tmtimeline {
+	margin: 0 0 0 0;
+}
+
+.cbp_tmtimeline > li {
+    position: relative;
+	margin: 0 0 25px 0;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	width: 55%;
+	padding: 3px 100px 0 0;
+	position: absolute;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+	text-align: center;
+	color: #000;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+}
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0 0 0 45%;
+	background: #000;
+	color: #fff;
+	padding: 0.6em 0.6em 0.6em 0.6em;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	position: relative;
+	text-align: center;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 {
+	margin: 0px;
+	padding: 0 0 0 0;
+	font-weight: normal;
+}
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	width: 3px;
+	background: #000;
+	top: 40%;
+	left: 27%;
+	margin: -10px 0 0 0;
+	height: 20px;
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #000;
+	border-width: 10px;
+	top: 12px;
+}
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+	width: 40px;
+	height: 40px;
+	font-family: 'ecoico';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: #46a4da;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #afdcf8;
+	text-align: center;
+	left: 20%;
+	top: 0;
+	margin: 0 0 0 -25px;
+}
+
+.cbp_tmicon-phone:before {
+	content: "\e000";
+}
+
+.cbp_tmicon-screen:before {
+	content: "\e001";
+}
+
+.cbp_tmicon-mail:before {
+	content: "\e002";
+}
+
+.cbp_tmicon-earth:before {
+	content: "\e003";
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+}
+
+@media screen and (max-width: 1000px) {
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #000;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}
+}
+
+@media all and (max-width: 1920px) {
+	#devices {
+		max-width: 780px; margin: 0 auto;
+	}
+}
+
+@media all and (min-width: 2880px) {
+	#devices { max-width: 1800px; }
+	#tommaso-desktop, #giantnerd-desktop { max-width: 100%; min-width: 100%; }
+	#tommaso-desktop img, #giantnerd-desktop img {  width: 100%; margin: 0 auto; }
+	#tommaso-iphone { max-width: 600px; }
+}
+@media all and (min-width: 2560px) {
+	#devices { max-width: 1600px; }
+	#tommaso-desktop, #giantnerd-desktop { max-width: 100%; min-width: 100%; }
+	#tommaso-desktop img, #giantnerd-desktop img {  width: 100%; margin: 0 auto; }
+	#tommaso-iphone { max-width: 600px; }
+}
+@media all and (max-width: 1600px) {
+	#devices { max-width: 650px; }
+	#tommaso-desktop, #giantnerd-desktop { max-width: 100%; min-width: 100%; }
+	#tommaso-desktop img, #giantnerd-desktop img {  width: 100%; margin: 0 auto; }
+	#tommaso-iphone { max-width: 150px; }
+	.cbp_tmtimeline > li .cbp_tmtime { width: 40%; }
+	.cbp_tmtimeline:before { left: 20%; }
+}
+@media all and (max-width: 1280px) {
+	#devices { max-width: 520px; }
+	#tommaso-desktop, #giantnerd-desktop { max-width: 100%; min-width: 100%; }
+	#tommaso-desktop img, #giantnerd-desktop img {  width: 100%; margin: 0 auto; }
+	#tommaso-iphone { max-width: 150px; }
+}
+@media all and (max-width: 980px) {
+}
+
+@media all and (max-width: 970px) {
+header {height:auto; text-align:center}
+header #links, header #logo, header #gn {
+	float:none; margin:0 auto
+}
+header #logo, header #gn {
+	width: 170px;
+	height: 45px;
+}
+#tommaso-desktop, #giantnerd-desktop {
+	width: 100%; background-size: contain;
+}
+#tommaso-iphone {
+	display: none;
+}
+.love {padding: 40px 0 0 0; display:block; overflow:hidden}
+
+
+#summary {padding: 40px 20px}
+#summary .left {
+	float: none;
+	width: 100%;
+}
+#summary .right {
+	float: none;
+	width: 100%;
+}
+
+.press-copy h1 {text-align: left}
+.press {height: auto; padding-bottom:30px;}
+
+.cbp_tmtimeline:before {
+	top: 36%;
+	left: 12%;
+}
+
+.cbp_tmtimeline {
+	width: 100%;
+	float: none;
+}
+
+}
+
+@media all and (max-width: 1024px) {
+#tommaso-iphone {
+	right: 0
+}
+.wrapper {width:90%}
+}
+
+/* iPhone 5 and other skinny devices */
+@media all and (max-width: 350px) {
+header {
+	min-height: 80px;
+}
+header a {
+	font-size: 1.2em;
+}
+}
